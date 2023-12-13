@@ -1,12 +1,12 @@
 # Rice-INDE577-Fall2023 - Data Science and Machine Learning
 
-## Instructor Information:
-- **Instructor**: Dr. Randy R. Davila
-- **Email**: [rrd6@rice.edu](mailto:rrd6@rice.edu)
-
 ## Student Information:
 - **Student**: Jonathan Tenney
 - **Email**: [jrt11@rice.edu](mailto:jrt11@rice.edu)
+
+## Instructor Information:
+- **Instructor**: Dr. Randy R. Davila
+- **Email**: [rrd6@rice.edu](mailto:rrd6@rice.edu)
 
 ## Course Description:
 INDE 577 - Data Science and Machine Learning is a comprehensive course designed to introduce and explore various machine learning algorithms, with emphasis on theoretical understanding and practical implementation in Python. The course is divided into two main sections:
