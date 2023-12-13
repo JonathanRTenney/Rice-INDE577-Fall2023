@@ -1,19 +1,38 @@
-# Rice-INDE577-Fall2023 - Data Science and Machine Learning
+# K-Nearest Neighbors Algorithm for Cluster Analysis
 
-## Course Description:
-INDE 577 - Data Science and Machine Learning is a comprehensive course designed to introduce and explore various machine learning algorithms, with an emphasis on theoretical understanding and practical implementation in Python. The course is divided into two main sections:
+This project implements the K-Nearest Neighbors (KNN) algorithm for cluster analysis, focusing on grouping data based on proximity to centroids. The objective is to identify natural clusters within complex data structures.
 
-- **Unsupervised Learning**: Unlike supervised learning, unsupervised learning algorithms take a set of data that contains only inputs and find structure in the data, like grouping or clustering of data points.
+## Dataset Overview
 
-### Unsupervised Learning Algorithms:
-- [K-means Clustering](./K-means%20Clustering)
+The dataset comprises two sets of synthetic data generated using `make_moons` and `make_circles` from Scikit-learn. These datasets represent challenging clustering scenarios with distinct shapes:
 
-## Key Python Modules Used:
-This repository heavily relies on the following Python modules for data processing, analysis, and visualization:
-- `matplotlib`
-- `numpy`
-- `pandas`
-- `seaborn`
-- `sklearn`
+- `make_moons`: Generates two interleaving half circles (moons).
+- `make_circles`: Produces a large circle containing a smaller circle in 2D.
 
-For detailed implementations, please refer to the respective directories linked above.
+The two datasets are combined and visualized to demonstrate the KNN algorithm's ability to handle complex clustering tasks.
+
+### Data Source
+
+The dataset is created using the following Scikit-learn functions:
+- `sklearn.datasets.make_moons`
+- `sklearn.datasets.make_circles`
+
+## KNN Algorithm
+
+The KNN algorithm, a versatile method for classification, regression, and clustering, is applied here for identifying clusters in the combined dataset of moons and circles.
+
+### Implementation
+
+Implemented in Python, the project leverages NumPy for numerical operations and Matplotlib for visualizing the complex data structure and clustering results.
+
+## Visualization and Analysis
+
+The project includes visualizations that compare the original data distribution to the KNN-assigned clusters. The effectiveness of the KNN algorithm in clustering non-linear and intricately shaped data is a key focus of this analysis.
+
+## Conclusion and Further Steps
+
+This project illustrates the KNN algorithm's application in clustering non-linear data structures. Future work might explore algorithm optimizations for various data shapes and the inclusion of more robust clustering evaluation metrics.
+
+---
+
+For implementation details and results, please refer to the Jupyter notebook included in this repository.
